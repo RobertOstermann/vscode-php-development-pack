@@ -1,0 +1,36 @@
+{
+  "name": "php-development-pack",
+  "displayName": "PHP Development Pack",
+  "description": "Everything you need for PHP development",
+  "version": "1.0.0",
+  "publisher": "RobertOstermann",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Other",
+    "Extension Packs"
+  ],
+  "galleryBanner": {
+    "color": "#6682BA",
+    "theme": "dark"
+  },
+  "icon": "logo.png",
+  "homepage": "https://github.com/RobertOstermann/vscode-php-development-pack/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/RobertOstermann/vscode-php-development-pack/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobertOstermann/vscode-php-development-pack"
+  },
+  "extensionPack": [
+    "phproberto.vscode-php-getters-setters",
+    "RobertOstermann.inline-parameters-extended",
+    "RobertOstermann.phpunit-extended-test-explorer",
+    "xdebug.php-debug",
+    "wongjn.php-sniffer",
+    "zobo.php-intellisense"
+  ]
+}
